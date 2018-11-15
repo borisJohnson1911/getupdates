@@ -1,6 +1,6 @@
 import telebot, base64, json, requests
 
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot('706468679:AAHc55R6nUwf1AHbYRGPEmkoza9Mh49hXtY')
 
 getupdates = types.InlineKeyboardMarkup(row_width=1)
 getupdatesbutton = types.InlineKeyboardButton(text="Получать обновление", callback_data="getupdates")
